@@ -1,0 +1,81 @@
+:root {
+    --alto-box: 450px;
+    --marroncito: #BD7451;
+    --gris-calido: #564D46;
+    --celeste: #93A39E;
+    --beigecito: #BE9A7A;--azulcito: #2D6069;
+    --esmeralda: #076D60;
+    --azul-prof: #1E2537;
+    --blanco: #FFFFFF;
+    --titulo: 'Bebas Neue', sans-serif;
+    --sub-titulo: 'Belleza', sans-serif;
+    --cuerpo-texto: 'Arimo', sans-serif;
+    
+}
+
+main .que-hacemos {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
+
+/*--- BOX ---*/
+main .box {
+    width: 100%;
+    height: var(--alto-box);
+    /* background-color: orange; */
+
+    display: flex;
+    flex-direction: row;
+}
+
+main .box .texto {
+    width: 40%;
+    height: 100%;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+
+main .box .texto h3 {
+    font-family: var(--titulo);
+    font-size: 30px;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 10%;
+}
+
+main .box .texto p {
+    font-family: var(--cuerpo-texto);
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+main .box .box-img {
+    width: 60%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+}
+
+main .box .box-img img {
+    width: 100%;
+    height: 100%;
+    background-color: azure;
+}
+
+main .nuestros-trabajos {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+}
