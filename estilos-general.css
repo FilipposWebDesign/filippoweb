@@ -1,0 +1,28 @@
+:root {
+    --marroncito: #BD7451;
+    --gris-calido: #564D46;
+    --celeste: #93A39E;
+    --beigecito: #BE9A7A;
+    --azulcito: #2D6069;
+    --esmeralda: #076D60;
+    --azul-prof: #1E2537;
+    --blanco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

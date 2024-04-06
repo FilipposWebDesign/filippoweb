@@ -1,0 +1,41 @@
+:root {
+    --ancho-logo: 165px;
+    --marroncito: #BD7451;
+    --gris-calido: #564D46;
+    --celeste: #93A39E;
+    --beigecito: #BE9A7A;
+    --azulcito: #2D6069;
+    --esmeralda: #076D60;
+    --azul-prof: #1E2537;
+    --blanco: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    height: 396px;
+    background-color: var(--blanco);
+    overflow: hidden;
+}
+
+header .logo img {
+    /* width: var(--ancho-logo);
+    height: var(--ancho-logo); */
+    width: 100%;
+    margin-left: -100%;
+    animation-duration: 3.5s;
+    animation-name: cabecera;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes cabecera {
+    from {
+        margin-left: -100%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}

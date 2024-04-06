@@ -1,0 +1,17 @@
+:root {
+    --marroncito: #BD7451;
+    --gris-calido: #564D46;
+    --celeste: #93A39E;
+    --beigecito: #BE9A7A;
+    --azulcito: #2D6069;
+    --esmeralda: #076D60;
+    --azul-prof: #1E2537;
+    --blanco: #FFFFFF;
+}
+
+main {
+    width: 95%;
+    height: fit-content;
+    /* background-color: blue; */
+    padding: 20px;
+}
